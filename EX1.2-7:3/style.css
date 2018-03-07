@@ -1,0 +1,75 @@
+h1{
+	color: purple;
+    font-family: "Arial"
+}
+h2{
+    color: purple;
+    font-family: 'Open Sans', sans-serif;
+}
+h3{
+    color: purple;
+    font-family: "Arial"
+}
+h4{
+    font-family: "Arial"
+}
+li{
+    font-family: "Arial"
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 90%;
+}
+.center{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+.header {
+    font-family: "Arial"
+    padding: 15px;
+}
+.menu_left {
+    width: 50%;
+    float: left;
+}
+.menu_rght {
+    width: 50%;
+    float: right;
+}
+.menu_quater {
+    width: 25%;
+    float: left;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    background-color: #f1f1f1;
+}
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-family: "Arial"
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+nav select {
+    display: none;
+}
+@media (max-width: 940px) {
+  nav ul     { display: none; }
+  nav select { display: inline-block; }
+  h2         { display: none; }
+}
+@media (max-width: 400px) {
+  p          { display: none; }
+}
+
