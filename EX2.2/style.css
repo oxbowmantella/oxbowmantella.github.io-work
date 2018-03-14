@@ -1,4 +1,4 @@
-/* BASE CSS */
+/* GRID CSS */
 body{
     background-color: lightgrey;
 }
@@ -79,4 +79,16 @@ nav select {
 @media (max-width: 400px) {
   p          { display: none; }
 }
-
+.grid-container {
+  font-family: 'Open Sans', sans-serif;
+  display: grid;
+  grid-gap: 0px;
+  grid-template-columns: 20% 40% 20% 20% ;
+  background-color: lightgrey;
+  padding: 10px;
+}
+.grid-item {
+  
+  background-color: lightgrey;
+  text-align: left;
+}
